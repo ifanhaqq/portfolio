@@ -1,0 +1,17 @@
+* {
+  font-family: 'Public pixel';
+}
+
+
+.bg-main {
+  background-color: #001118;
+}
+
+.bg-linear {
+  background-image: linear-gradient(#001118, black);
+}
+
+.mg-top {
+  margin-top: 100%;
+}
+
