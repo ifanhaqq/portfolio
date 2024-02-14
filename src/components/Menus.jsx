@@ -1,37 +1,23 @@
-import contacts from '../assets/img/contacts.png'
-import projects from "../assets/img/projects.png"
-import profile from '../assets/img/profile.png'
+import contacts from "../assets/img/contacts.svg"
+import profile from '../assets/img/profile.svg'
+import projects from '../assets/img/projects.svg'
 import IconCard from './IconCard'
-import { motion } from 'framer-motion'
+import SvgCard from './SvgCard'
+
 
 export default function Menus() {
     return (
         <div className='row bg-linear'>
-            <div className="row" style={{marginTop: 100}} >
-                <motion.div
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ delay: 0.5 }}>
-                    <IconCard pict={profile} title='Profile' />
-                </motion.div>
+            <div className="row" style={{ marginTop: 100 }} >
+                <SvgCard pict={profile} title='Profile' />
             </div>
-            <div className="row" style={{marginBottom: 100}}>
+            <div className="row" style={{ marginBottom: 100 }}>
                 <div className="col-sm-6">
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        transition={{ delay: 0.5 }}>
-                        <IconCard pict={projects} title='Projects' />
-                    </motion.div>
+                    {/* <IconCard pict={contacts} title='contacts' /> */}
+                    <SvgCard pict={projects} title='Projects' />
                 </div>
-                
                 <div className="col-sm-6">
-                    <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
-                        transition={{ delay: 0.5 }}>
-                        <IconCard pict={contacts} title='Contacts' />
-                    </motion.div>
+                    <SvgCard pict={contacts} title='Contacts' />
                 </div>
             </div>
         </div>
