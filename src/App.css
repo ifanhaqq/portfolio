@@ -1,5 +1,13 @@
 * {
   font-family: 'Public pixel';
+  src: url(assets/fonts/PublicPixel.ttf);
+  src: url(assets/fonts/PublicPixel.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Public pixel';
+  src: url(assets/fonts/PublicPixel.ttf);
+  src: url(assets/fonts/PublicPixel.woff) format('woff');
 }
 
 .bg-main {
