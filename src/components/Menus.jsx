@@ -1,7 +1,6 @@
 import contacts from "../assets/img/contacts.svg"
 import profile from '../assets/img/profile.svg'
 import projects from '../assets/img/projects.svg'
-import IconCard from './IconCard'
 import SvgCard from './SvgCard'
 
 
