@@ -2,6 +2,7 @@ import './App.css'
 import { motion } from 'framer-motion'
 import Intro from './components/Intro';
 import Menus from './components/Menus';
+import Profile from './components/Profile';
 
 export default function App() {
 
@@ -10,6 +11,7 @@ export default function App() {
       <div className="container-fluid">
         <Intro />
         <Menus />
+        <Profile />
       </div>
     </>
   );

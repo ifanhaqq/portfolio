@@ -1,7 +1,7 @@
 import contacts from "../assets/img/contacts.svg"
 import profile from '../assets/img/profile.svg'
 import projects from '../assets/img/projects.svg'
-import SvgCard from './SvgCard'
+import SvgCard from './sub_components/SvgCard'
 
 
 export default function Menus() {
