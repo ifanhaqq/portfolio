@@ -1,4 +1,4 @@
-@charset "UTF-8";*{font-family:Public pixel}.bg-main{background-color:#001118}.bg-linear{background-image:linear-gradient(#001118,#000)}.mg-top{margin-top:100%}/*!
+@charset "UTF-8";*{font-family:Public pixel;src:url(/portfolio/assets/PublicPixel-QwU3ytlY.ttf);src:url(/portfolio/assets/PublicPixel-UYCxrFcH.woff) format("woff")}html::-webkit-scrollbar{display:none}@font-face{font-family:Public pixel;src:url(/portfolio/assets/PublicPixel-QwU3ytlY.ttf);src:url(/portfolio/assets/PublicPixel-UYCxrFcH.woff) format("woff")}.bg-main{background-color:#001118}.bg-linear{background-image:linear-gradient(#001118,#000)}.bg-profile{background-image:linear-gradient(#000,#001118)}.mg-top{margin-top:100%}.border-profile{border:10px;border-style:solid;border-color:#000}/*!
 * Bootstrap  v5.3.2 (https://getbootstrap.com/)
 * Copyright 2011-2023 The Bootstrap Authors
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
