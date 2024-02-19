@@ -11,7 +11,7 @@ export default function App() {
       <div className="container-fluid">
         <Intro />
         <Menus />
-        <Profile />
+        <Profile id="profile" />
       </div>
     </>
   );

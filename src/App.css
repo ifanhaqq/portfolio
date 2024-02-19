@@ -8,6 +8,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+
 @font-face {
   font-family: 'Public pixel';
   src: url(assets/fonts/PublicPixel.ttf);

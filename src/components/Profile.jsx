@@ -5,12 +5,10 @@ import TechCard from "./sub_components/TechCard"
 
 export default function Profile() {
     return (
-        <div className="row bg-profile">
+        <div className="row bg-profile" id="profile">
             <div className="col-sm-6">
                 <ProfileCard />
             </div>
-
-
             <div className="col-sm-6">
                 <div className="row mb-4">
                     <TechCard pict={proglang} title='Programming Language' />

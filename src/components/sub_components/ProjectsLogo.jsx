@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 
-export default function SvgCard({ pict, title }) {
+export default function ProjectsLogo() {
 
     const [fill, setFill] = useState("transparent")
     const [stroke, setStroke] = useState("white")
@@ -16,26 +16,20 @@ export default function SvgCard({ pict, title }) {
         setStroke("white")
     }
 
-    const handleClick = () => {
-        console.log("kasfjksjk")
-    }
-
     return (
         <motion.div initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.3 }}>
             <a href="#projects" className="card mx-auto mt-5" style={{ width: "200px", background: 'transparent' }}>
                 <div className="col-sm-12">
-                    <svg width="194" height="195" viewBox="0 0 194 195" fill="none" xmlns="http://www.w3.org/2000/svg" onMouseEnter={handleMouseEnter} onMouseOut={handleMouseOut}>
+                    <svg width="194" height="195" viewBox="0 0 194 195" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path onMouseEnter={handleMouseEnter} onMouseOut={handleMouseOut} id="fill" d="M190.5 97.5C190.5 149.432 148.622 191.5 97 191.5C45.3783 191.5 3.5 149.432 3.5 97.5C3.5 45.5682 45.3783 3.5 97 3.5C148.622 3.5 190.5 45.5682 190.5 97.5Z" fill={fill} stroke="white" stroke-width="7" />
-                        <path onMouseEnter={handleMouseEnter} onMouseOut={handleMouseOut} id="stroke" d="M71.25 97H77.8125V102.889H117.188V97H123.75V91.1111H130.312V55.7778H123.75V49.8889H117.188V44H77.8125V49.8889H71.25V55.7778H64.6875V91.1111H71.25V97ZM77.8125 67.5556H84.375V61.6667H90.9375V55.7778H104.062V61.6667H110.625V67.5556H117.188V79.3333H110.625V85.2222H104.062V91.1111H90.9375V85.2222H84.375V79.3333H77.8125V67.5556ZM143.438 120.556V114.667H136.875V108.778H58.125V114.667H51.5625V120.556H45V150H58.125V132.333H64.6875V126.444H71.25V120.556H123.75V126.444H130.312V132.333H136.875V150H150V120.556H143.438Z" fill={stroke} />
+                        <path onMouseEnter={handleMouseEnter} onMouseOut={handleMouseOut} id="stroke" d="M72.2199 124.738L78.7821 115.841L57.6571 97.5057L78.7821 79.1703L72.2199 70.2731L45.9711 93.0571C45.3561 93.5907 44.8596 94.2676 44.5184 95.0377C44.1772 95.8078 44 96.6513 44 97.5057C44 98.3601 44.1772 99.2036 44.5184 99.9737C44.8596 100.744 45.3561 101.421 45.9711 101.954L72.2199 124.738ZM120.78 70.2731L114.218 79.1703L135.343 97.5057L114.218 115.841L120.78 124.738L147.029 101.954C147.644 101.421 148.14 100.744 148.482 99.9737C148.823 99.2036 149 98.3601 149 97.5057C149 96.6513 148.823 95.8078 148.482 95.0377C148.14 94.2676 147.644 93.5907 147.029 93.0571L120.78 70.2731ZM112.123 47.4721L91.1242 150L80.8715 147.528L101.87 45L112.123 47.4721Z" fill={stroke} />
                     </svg>
                 </div>
-                {/* <object onClick={handleClick} className='col-sm-12' type="image/svg+xml" data={pict} /> */}
-                {/* <img src={pict} alt="" className='col-sm-12' /> */}
                 <div className="card-body">
                     <div className="card-title text-white text-center">
-                        <h5 onClick={handleClick}>{title}</h5>
+                        <h5>Projects</h5>
                     </div>
                 </div>
             </a>
