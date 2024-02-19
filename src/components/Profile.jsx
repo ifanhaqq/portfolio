@@ -1,3 +1,4 @@
+
 import techStack from "../assets/img/tekstak.png"
 import proglang from "../assets/img/languages.png"
 import ProfileCard from "./sub_components/ProfileCard"
@@ -9,7 +10,7 @@ export default function Profile() {
             <div className="col-sm-6">
                 <ProfileCard />
             </div>
-            <div className="col-sm-6">
+            <div className="col-sm-4 mt-4">
                 <div className="row mb-4">
                     <TechCard pict={proglang} title='Programming Language' />
                 </div>
